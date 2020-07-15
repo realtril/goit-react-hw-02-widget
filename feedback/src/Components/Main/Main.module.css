@@ -1,0 +1,15 @@
+.BtnWrapper {
+  list-style: none;
+  display: flex;
+}
+
+.Button:not(:last-child) {
+  display: block;
+  margin-right: 20px;
+}
+
+.Title,
+.noFeedback {
+  display: block;
+  margin-left: 20px;
+}
